@@ -1,9 +1,8 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
-  </nav>
+  <HeaderNav />
   <router-view />
 </template>
 
-<script></script>
+<script setup>
+import HeaderNav from "./components/HeaderNav.vue";
+</script>
